@@ -31,10 +31,21 @@ A self-driven cybersecurity strategist, ethical hacker, full stack developer, an
 
 ## 🌐 Connect With Me
 
-[![Instagram](https://img.shields.io/badge/Instagram-%40rootkrishna-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/root_krishna)  
-[![Telegram](https://img.shields.io/badge/Telegram-Join%20Now-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ROOT_KRISHNA)  
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5ptqPJEN34FlgXc25)  
-[![GitHub](https://img.shields.io/badge/GitHub-rootkrishna-181717?style=for-the-badge&logo=github)](https://github.com/rootkrishna)
+<p align="center">
+  <a href="https://instagram.com/root_krishna" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%40rootkrishna-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://t.me/ROOT_KRISHNA" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-Join%20Now-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
+  <a href="https://whatsapp.com/channel/0029Vb5ptqPJEN34FlgXc25" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+  <a href="https://github.com/rootkrishna" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-rootkrishna-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
 
 
 ---
