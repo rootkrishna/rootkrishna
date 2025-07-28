@@ -1,54 +1,53 @@
-<h1 align="center">👨‍💻 Krishna — Cybersecurity | AI | Full Stack</h1>
+<h1 align="center">⚔️ Krishna ⚔️</h1>
 
 <p align="center">
-  Founder of <strong>HexaForce Alliance</strong> ⚔️<br>
+  <strong>Founder</strong> of <strong>HexaForce Alliance</strong><br>
   Leading <strong>Violent Cyber Force</strong>, <strong>Cyber Guardian</strong>, <strong>Anti-Cyber Crime Taskforce</strong><br><br>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&color=F700FF&width=500&lines=Ethical+Hacker;AI+Engineer;Full+Stack+Developer;Founder+and+Cyber+Commander" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&color=F700FF&width=600&lines=Ethical+Hacker;AI+Engineer;Full+Stack+Developer;Founder+and+Cyber+Commander" alt="Typing SVG" />
 </p>
 
 ---
 
-## 🧠 About Me
+## 👁️ Who Am I
 
-Hey 👋 I’m **Krishna**, aka `rootkrishna` —  
-A self-driven cybersecurity strategist, AI innovator, and full stack developer.
+I’m **Krishna**, known online as `rootkrishna` —  
+An AI-powered ethical hacker, OSINT architect, and full-stack developer.
 
-I lead multiple elite cyber taskforces to protect digital assets, track threats, and empower communities through cyber intelligence.  
-I build tools, perform advanced ethical hacking, and develop full-stack systems with security-first design.
+I lead digital taskforces, build offensive security tools, automate intelligence, and deploy systems with code as my weapon.
 
-💀 I don’t just write code. I craft weapons for digital warfare.  
+💀 I don’t just write code — I build cyber weapons.  
 🧠 Mission: **Code. Hack. Protect. Repeat.**
 
 ---
 
-## 💼 Skills
+## 💼 Arsenal
 
-- ⚔️ Penetration Testing / Red Team Ops  
-- 🤖 AI & ML – NLP, LLMs, Deep Learning  
-- 🧠 OSINT Automation & Tool Dev  
-- 💻 Full Stack – Node.js, React, MongoDB  
-- 🐧 Linux | Bash | Networking | Termux  
-- 🛠️ Python, Shell, JavaScript
+- ⚔️ Offensive Security • Red Teaming • Recon Automation  
+- 🤖 AI/ML – Transformers • NLP • Custom LLM Agents  
+- 🔍 OSINT • Surveillance • Deep Web Crawling  
+- 💻 Full Stack – Node.js • React • MongoDB • Express  
+- 🐧 Linux | Bash | Termux | Network Security  
+- 🛠 Tools: Burp Suite • Scapy • Metasploit • Nmap
 
 ---
 
-## 💣 Tools by Me
+## 💣 Weapons I've Built
 
 | Tool | Description |
 |------|-------------|
-| [`UserTrackr`](https://github.com/rootkrishna/UserTrackr) | Username OSINT tracker across social platforms |
-| [`ZeroRecon`](https://github.com/rootkrishna/ZeroRecon) | Full-spectrum recon & automation framework |
-| [`AnonMail`](https://github.com/rootkrishna/AnonMail-Spoofed-Email-Sender) | Spoofed email sender for simulations |
-| [`DNSGhost`](https://github.com/rootkrishna/DNSGhost) | Subdomain and DNS recon with stealth options |
-| [`HashHawk`](https://github.com/rootkrishna/HashHawk) | Hash cracking with dictionary-based attacks |
-| [`PortMapper`](https://github.com/rootkrishna/PortMapper-) | TCP port scanner with banner grabbing |
-| [`NetSniffer`](https://github.com/rootkrishna/NetSniffer---Advanced-Real-Time-Packet-Sniffing-Tool-by-KRISHNA) | Real-time packet sniffer using Scapy |
-| [`CredHarvestor`](https://github.com/rootkrishna/CredHarvestor) | Credential brute-forcing & leaked checker |
-| [`DarkRecon`](https://github.com/rootkrishna/DarkRecon-Dark-Web-OSINT-Crawler) | Dark web crawler via Tor for cyber research |
+| [`UserTrackr`](https://github.com/rootkrishna/UserTrackr) | Track usernames across social media OSINT |
+| [`ZeroRecon`](https://github.com/rootkrishna/ZeroRecon) | Full recon automation + enumeration suite |
+| [`AnonMail`](https://github.com/rootkrishna/AnonMail-Spoofed-Email-Sender) | Email spoofing for red team simulations |
+| [`DNSGhost`](https://github.com/rootkrishna/DNSGhost) | DNS/subdomain stealth scanner |
+| [`HashHawk`](https://github.com/rootkrishna/HashHawk) | High-speed hash cracker with wordlist support |
+| [`PortMapper`](https://github.com/rootkrishna/PortMapper-) | TCP port scanner with service detection |
+| [`NetSniffer`](https://github.com/rootkrishna/NetSniffer---Advanced-Real-Time-Packet-Sniffing-Tool-by-KRISHNA) | Real-time packet sniffer (Scapy) |
+| [`CredHarvestor`](https://github.com/rootkrishna/CredHarvestor) | Brute-force & leaked credential tester |
+| [`DarkRecon`](https://github.com/rootkrishna/DarkRecon-Dark-Web-OSINT-Crawler) | Tor-based .onion crawler for deep web research |
 
 ---
 
-## 🌐 Connect With Me
+## 🛰 Connect to the Command Grid
 
 <p align="center">
   <a href="https://instagram.com/root_krishna" target="_blank">
@@ -67,7 +66,9 @@ I build tools, perform advanced ethical hacking, and develop full-stack systems 
 
 ---
 
-## 💬 Quote I Live By
+## 💬 Quote from the Frontline
 
-> *"In the digital battlefield, silence is weakness. Code is your shield."*  
-> — `Krishna` aka `rootkrishna`
+> “In the digital battlefield, silence is weakness.  
+> Code is resistance.  
+> Intelligence is armor.”  
+> — `rootkrishna`
