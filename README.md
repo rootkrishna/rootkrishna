@@ -1,4 +1,4 @@
-<h1 align="center">👨‍💻 Krishna — Cybersecur</h1>
+<h1 align="center">👨‍💻 Krishna — Cybersecurity | AI | Full Stack</h1>
 
 <p align="center">
   Founder of <strong>HexaForce Alliance</strong> ⚔️<br>
@@ -13,7 +13,8 @@
 Hey 👋 I’m **Krishna**, aka `rootkrishna` —  
 A self-driven cybersecurity strategist, AI innovator, and full stack developer.
 
-I lead multiple elite cyber taskforces to protect digital assets, track threats, and empower communities through cyber intelligence. I build tools, perform advanced ethical hacking, and develop full-stack systems with security-first design.
+I lead multiple elite cyber taskforces to protect digital assets, track threats, and empower communities through cyber intelligence.  
+I build tools, perform advanced ethical hacking, and develop full-stack systems with security-first design.
 
 💀 I don’t just write code. I craft weapons for digital warfare.  
 🧠 Mission: **Code. Hack. Protect. Repeat.**
@@ -47,20 +48,20 @@ I lead multiple elite cyber taskforces to protect digital assets, track threats,
 
 ---
 
-## ⚔️ Connect to the Command Grid
+## 🌐 Connect With Me
 
 <p align="center">
   <a href="https://instagram.com/root_krishna" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="https://t.me/ROOT_KRISHNA" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-Message-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   <a href="https://whatsapp.com/channel/0029Vb5ptqPJEN34FlgXc25" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    <img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
   <a href="https://github.com/rootkrishna" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
