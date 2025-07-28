@@ -1,4 +1,4 @@
-<h1 align="center">👨‍💻 Krishna — Cybersecurity | AI | Full Sta</h1>
+<h1 align="center">👨‍💻 Krishna — Cybersecurity | AI | Full St</h1>
 
 <p align="center">
   Founder of <strong>HexaForce Alliance</strong> ⚔️<br>
