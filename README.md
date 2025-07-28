@@ -31,13 +31,11 @@ A self-driven cybersecurity strategist, ethical hacker, full stack developer, an
 
 ## 🌐 Connect With Me
 
-## 🌐 Connect With Me
-
 [![Instagram](https://img.shields.io/badge/Instagram-%40rootkrishna-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/root_krishna)  
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-DD0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@root_krishna)  
 [![Telegram](https://img.shields.io/badge/Telegram-Join%20Now-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ROOT_KRISHNA)  
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5ptqPJEN34FlgXc25)  
 [![GitHub](https://img.shields.io/badge/GitHub-rootkrishna-181717?style=for-the-badge&logo=github)](https://github.com/rootkrishna)
+
 
 ---
 
