@@ -1,4 +1,4 @@
-<h1 align="center">⚔️ Krishna ⚔️ </h1>
+<h1 align="center">⚔️ Krishna ⚔️</h1>
 
 <p align="center">
   <strong>Founder</strong> of <strong>HexaForce Alliance</strong><br>
