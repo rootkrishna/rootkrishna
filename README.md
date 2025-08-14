@@ -45,3 +45,43 @@ Based in India, my expertise spans **C, C++, JavaScript, Shell**, and **Python**
 [WARN]  System defenses compromised
 [CRIT]  Kernel panic imminent
 [FATAL] Har Har Mahadev Protocol initiated
+
+
+🛠️ Tech Stack & Tools
+
+<p align="center"> <img src="https://skillicons.dev/icons?i=python,c,cpp,js,linux,bash,git,github,mysql,firebase,react,vue" alt="Tech Stack" /> </p>
+[💀] Threat Matrix
+[►] System Breach    [███████████████████░] 98%
+[►] Deep Infiltration[██████████████████░░] 95%
+[►] Ghost Protocol   [█████████████████░░░] 92%
+[►] Data Extraction  [████████████████░░░░] 88%
+
+
+📈 GitHub Stats
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=rootkrishna&show_icons=true&theme=highcontrast" alt="GitHub Stats" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=rootkrishna&theme=highcontrast" alt="GitHub Streak" /> </p> <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=rootkrishna&theme=darkhub&no-frame=true&column=4&margin-w=15&margin-h=15&bg_color=000000&title_color=FF0000&no-bg=true"/> </p>
+🎭 [PHANTOM PROTOCOL]
+<div align="center"> <img src="https://img.shields.io/badge/Signal_Trace-BLOCKED-FF0000?style=flat-square&color=000000" alt="Signal Trace: BLOCKED" /> <img src="https://img.shields.io/badge/System_Access-ROOT-FF0000?style=flat-square&color=000000" alt="System Access: ROOT" /> <img src="https://img.shields.io/badge/Detection-VOID-FF0000?style=flat-square&color=000000" alt="Detection: VOID" /> </div>
+[🔪] Weapon Stack
+<div align="center">
+
+
+
+
+
+
+
+
+</div>
+[⚔️] Operation Status
+[>>] Kernel Takeover   [▰▰▰▰▰▰▰▰▰▱] 95%
+    🚩 Har Har Mahadev 🚩
+[>>] Zero-Day Arsenal  [▰▰▰▰▰▰▰▰▱▱] 85%
+[>>] System Decimation [▰▰▰▰▰▰▰▰▱▱] 80%
+[>>] Shadow Protocol   [▰▰▰▰▰▰▰▰▰▱] 90%
+
+[🕷️] Digital Footprints
+[X] Location     : ENCRYPTED
+[X] Status       : HUNTING
+[X] Target       : ACQUIRING
+[X] Threat Level : CRITICAL
