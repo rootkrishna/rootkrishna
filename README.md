@@ -1,66 +1,47 @@
-<!-- PROFILE HEADER -->
-<h1 align="center">⚡ KRISHNA ⚡</h1>
-<p align="center">
-  <b>Ethical Hacker • AI & Cybersecurity • OSINT | 🚩 Har Har Mahadev</b><br>
-  <b>Founder:</b> HEXAFORCE • VIOLENT CYBER FORCE • CYBER GUARDIAN • ANTI-CYBER CRIME TASKFORCE
-</p>
+---
+
+<h1 align="center">🚩 KRISHNA | CYBER WARRIOR 🚩</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00F5D4&center=true&vCenter=true&width=750&lines=Building+elite+security+tools+for+digital+Bharat;AI+%2B+Cybersecurity+%2B+OSINT;Automation+Specialist;Always+Learning%2C+Always+Shipping" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=matrix&size=28&duration=3000&color=FF0000&center=true&vCenter=true&lines=Cybersecurity+Specialist;OSINT+Hunter;Automation+Engineer;Har+Har+Mahadev" alt="Typing SVG" />
 </p>
 
-<!-- SOCIALS -->
-<p align="center">
-  <a href="https://instagram.com/rootkrishna"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram&logoColor=FF2D55"></a>
-  <a href="https://github.com/rootkrishna"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://t.me/rootkrishna"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor=29A0DC"></a>
-</p>
+<div align="center">
+    <a href="https://instagram.com/rootkrishna"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=red&color=black" alt="Instagram Badge"/></a>
+    <a href="https://github.com/rootkrishna"><img src="https://img.shields.io/badge/GitHub-FF0000?style=for-the-badge&logo=github&logoColor=red&color=black" alt="GitHub Badge"/></a>
+    <a href="https://t.me/rootkrishna"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=red&color=black" alt="Telegram Badge"/></a>
+</div>
 
 ---
 
-### 🧭 About Me
-- 🔐 Ethical Hacker & **AI Security** enthusiast  
-- 🛰️ Focus: **OSINT, Recon, Automation, Infra Security**  
-- 💡 I build tools that are **fast, clean, and field-ready**  
-- 🇮🇳 **Jai Hind** | 🚩 **Har Har Mahadev**
+### 🌟 [ABOUT ME] Code Architect and Defender
+
+<div align="center"> 
+    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=24&duration=3500&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=700&lines=👋+Greetings!+I+am+Krishna.;" alt="Animated Typing SVG"> 
+</div>
 
 ---
 
-### 🛠️ Featured Tools
-- **[UserTrackr](https://github.com/rootkrishna/UserTrackr):** Username OSINT across 100+ platforms  
-- **[DNSGhost](https://github.com/rootkrishna/DNSGhost):** Fast subdomain recon & DNS intel  
-- **[ZeroRecon](https://github.com/rootkrishna/ZeroRecon):** Full-scope recon with reporting  
-- **[AnonMail](https://github.com/rootkrishna/AnonMail-Spoofed-Email-Sender):** Awareness & phishing training tool  
-- **[HashHawk](https://github.com/rootkrishna/HashHawk):** Fast dictionary-based hash cracking
+### Who Am I?
 
-> More on my profile → **[github.com/rootkrishna](https://github.com/rootkrishna)**
+I am **Krishna**, a passionate and self-taught **Ethical Hacker**, **OSINT Expert**, and **Python3 Automation Specialist**.  
+Based in India, my expertise spans **C, C++, JavaScript, Shell**, and **Python**, where I build tools and solutions to bridge **innovation with execution**.
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rootkrishna&show_icons=true&theme=highcontrast" height="150" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rootkrishna&theme=highcontrast" height="150" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rootkrishna&theme=onestar&no-bg=true&no-frame=true&column=6" />
-</p>
+### 🌟 [VISION]
+
+<div align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=750&lines=Empowering+Digital+Bharat;Defending+the+Future+Through+Code;Precision+%26+Integrity+in+Every+Line" alt="Vision Typing Animation">
+
+  
+</div>
 
 ---
 
-### ⚙️ Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,bash,linux,js,html,css,git,github,docker,sqlite&perline=10" />
-</p>
-
----
-
-### 🤝 Connect
-- 📸 Instagram: **[@rootkrishna](https://instagram.com/rootkrishna)**  
-- 💻 GitHub: **[@rootkrishna](https://github.com/rootkrishna)**  
-- ✈️ Telegram: **[@rootkrishna](https://t.me/rootkrishna)**
-
----
-
-<p align="center"><b>Developed with ❤️ by Krishna</b><br>
-<b>🇮🇳 Jai Hind | 🚩 Har Har Mahadev</b></p>
+### [⚠️] System Warning
+```css
+[ALERT] Unauthorized access detected
+[WARN]  System defenses compromised
+[CRIT]  Kernel panic imminent
+[FATAL] Har Har Mahadev Protocol initiated
