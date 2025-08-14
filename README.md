@@ -1,74 +1,42 @@
-<h1 align="center"> ⚔️ Krishna ⚔️ </h1>
+---
+
+<h1 align="center">☠️ KRISHNA DUBEY | POWERFUL CODER ☠️</h1>
 
 <p align="center">
-  <strong>Founder</strong> of <strong>HexaForce Alliance</strong><br>
-  Leading <strong>Violent Cyber Force</strong>, <strong>Cyber Guardian</strong>, <strong>Anti-Cyber Crime Taskforce</strong><br><br>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&color=F700FF&width=600&lines=Ethical+Hacker;AI+Engineer;Full+Stack+Developer;Founder+and+Cyber+Commander" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=matrix&size=28&duration=3000&color=FF0000&center=true&vCenter=true&lines=Automation+Specialist;Founder+of+HEXAFORCE;Advanced+OSINT+Researcher;Cybersecurity+Expert" alt="Typing SVG" />
 </p>
 
----
+<div align="center">
+    <a href="https://instagram.com/rootkrishna"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=red&color=black" alt="Instagram Badge"/></a>
+    <a href="https://github.com/rootkrishna"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=red&color=black" alt="GitHub Badge"/></a>
+    <a href="https://t.me/rootkrishna"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=red&color=black" alt="Telegram Badge"/></a>
+</div>
 
-## 👁️ Who Am I
+### 🌟 [ABOUT ME] Code Architect and Innovator
 
-I’m **Krishna**, known online as `rootkrishna` —  
-An AI-powered ethical hacker, OSINT architect, and full-stack developer.
-
-I lead digital taskforces, build offensive security tools, automate intelligence, and deploy systems with code as my weapon.
-
-💀 I don’t just write code — I build cyber weapons.  
-🧠 Mission: **Code. Hack. Protect. Repeat.**
-
----
-
-## 💼 Arsenal
-
-- ⚔️ Offensive Security • Red Teaming • Recon Automation  
-- 🤖 AI/ML – Transformers • NLP • Custom LLM Agents  
-- 🔍 OSINT • Surveillance • Deep Web Crawling  
-- 💻 Full Stack – Node.js • React • MongoDB • Express  
-- 🐧 Linux | Bash | Termux | Network Security  
-- 🛠 Tools: Burp Suite • Scapy • Metasploit • Nmap
+<div align="center"> 
+    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=24&duration=3500&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=700&lines=👋+Greetings!+I+am+Krishna+Dubey.;💻+Cybersecurity+Specialist+%26+Tool+Developer" alt="Animated Typing SVG"> 
+</div>
 
 ---
 
-## 💣 Weapons I've Built
+### Who Am I?
 
-| Tool | Description |
-|------|-------------|
-| [`UserTrackr`](https://github.com/rootkrishna/UserTrackr) | Track usernames across social media OSINT |
-| [`ZeroRecon`](https://github.com/rootkrishna/ZeroRecon) | Full recon automation + enumeration suite |
-| [`AnonMail`](https://github.com/rootkrishna/AnonMail-Spoofed-Email-Sender) | Email spoofing for red team simulations |
-| [`DNSGhost`](https://github.com/rootkrishna/DNSGhost) | DNS/subdomain stealth scanner |
-| [`HashHawk`](https://github.com/rootkrishna/HashHawk) | High-speed hash cracker with wordlist support |
-| [`PortMapper`](https://github.com/rootkrishna/PortMapper-) | TCP port scanner with service detection |
-| [`NetSniffer`](https://github.com/rootkrishna/NetSniffer---Advanced-Real-Time-Packet-Sniffing-Tool-by-KRISHNA) | Real-time packet sniffer (Scapy) |
-| [`CredHarvestor`](https://github.com/rootkrishna/CredHarvestor) | Brute-force & leaked credential tester |
-| [`DarkRecon`](https://github.com/rootkrishna/DarkRecon-Dark-Web-OSINT-Crawler) | Tor-based .onion crawler for deep web research |
+I am **Krishna**, a passionate and self-taught **Ethical Hacker**, **OSINT Expert**, and **Python3 Automation Specialist**. Based in India, my expertise spans **C, C++, JavaScript, Shell**, and **Python**, where I build tools and solutions to bridge innovation with execution.
 
 ---
 
-## 🛰 Connect to the Command Grid
+### 🌟 [VISION]
 
-<p align="center">
-  <a href="https://instagram.com/root_krishna" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://t.me/ROOT_KRISHNA" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb5ptqPJEN34FlgXc25" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  </a>
-  <a href="https://github.com/rootkrishna" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+<div align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=750&lines=Empowering+Technology+Through+Precision+and+Integrity;Inspiring+a+Better+Tomorrow+Through+Code" alt="Vision Typing Animation">
+</div>
 
 ---
 
-## 💬 Quote from the Frontline
-
-> “In the digital battlefield, silence is weakness.  
-> Code is resistance.  
-> Intelligence is armor.”  
-> — `rootkrishna`
+### [⚠️] System Warning
+```css
+[ALERT] Unauthorized access detected
+[WARN]  System defenses compromised
+[CRIT]  Kernel panic imminent
+[FATAL] Ghost protocol initiated
