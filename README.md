@@ -1,45 +1,61 @@
 <h1 align="center">
-✨ KRISHNA ✨
+✨ Krishna Dubey ✨
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hacker+%7C+Developer+%7C+Innovator;Cybersecurity+Expert;AI+%26+Web+Specialist;Har+Har+Mahadev+🚩" alt="Typing SVG">
+<b>Founder of:</b> <br>
+HEXAFORCE ⚡ | VIOLENT CYBER FORCE 💀 | CYBER GUARDIAN 🛡 | ANTI-CYBER CRIME TASKFORCE 🚔
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&color=FF007F&width=500&lines=🚀+Ethical+Hacker;💻+Full+Stack+Developer;🛡+Cybersecurity+Expert;🤖+AI+Specialist;🌐+OSINT+Investigator" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🚀 About Me
-💻 Ethical Hacker & Cybersecurity Expert  
-🌐 Building next-level web & AI solutions  
-⚡ Passion for innovation, tech & security  
-🚩 **Har Har Mahadev** | 🇮🇳 **Jai Hind**  
+## 🌟 About Me
+
+I’m **Krishna Dubey** — also known as **rootkrishna** —  
+A passionate **Ethical Hacker**, **Cybersecurity Specialist**, and **AI Engineer** from India 🇮🇳.  
+I lead multiple hacking & cybersecurity teams dedicated to **protecting the digital world** while pushing the limits of **innovation and technology**.
+
+🔥 My work blends **offensive security**, **AI automation**, and **open-source intelligence (OSINT)** to build **next-gen cyber tools**.
 
 ---
 
-### 🌍 Connect with Me
+## 🚀 Skills & Expertise
+
+- **Cybersecurity:** Penetration Testing, Vulnerability Assessment, Network Security
+- **Programming:** Python, JavaScript, HTML/CSS, Bash
+- **AI & Automation:** OpenAI API, Machine Learning, NLP
+- **OSINT & Recon:** Advanced data gathering, footprinting, and intelligence analysis
+- **Web Dev:** Premium, modern, animated UI designs
+
+---
+
+## 📡 Social Links
+
 <p align="center">
-  <a href="https://instagram.com/rootkrishna" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%40rootkrishna-ff0069?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://github.com/rootkrishna" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-%40rootkrishna-000000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://t.me/rootkrishna" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-%40rootkrishna-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
+  <a href="https://instagram.com/rootkrishna"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://github.com/rootkrishna"><img src="https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://t.me/rootkrishna"><img src="https://img.shields.io/badge/Telegram-%230088CC.svg?&style=for-the-badge&logo=telegram&logoColor=white" /></a>
 </p>
 
 ---
 
-### 🛠 Skills & Expertise
-- **Cybersecurity & Ethical Hacking** 🔒  
-- **Full Stack Development** 🌐  
-- **AI & Automation** 🤖  
-- **Open Source Projects** 🛠  
+## ⚔️ Featured Projects
+
+- **[UserTrackr](https://github.com/rootkrishna/UserTrackr)** → OSINT username tracking across 100+ sites  
+- **[DNSGhost](https://github.com/rootkrishna/DNSGhost)** → Stealth DNS lookup & reconnaissance tool  
+- **[ZeroRecon](https://github.com/rootkrishna/ZeroRecon)** → Full-scope OSINT & Recon automation
 
 ---
 
+## 📜 Credits
+
+Developed with ❤️ by **Krishna Dubey**  
+Founder of: **HEXAFORCE | VIOLENT CYBER FORCE | CYBER GUARDIAN | ANTI-CYBER CRIME TASKFORCE**
+
 <p align="center">
-  <b>Developed with ❤️ by Krishna</b><br>
-  🚩 Har Har Mahadev | 🇮🇳 Jai Hind
+<b>🇮🇳 Jai Hind | 🚩 Har Har Mahadev</b>
 </p>
