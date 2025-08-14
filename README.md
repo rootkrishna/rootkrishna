@@ -1,50 +1,52 @@
-<h1 align="center">✨ KRISHNA ✨</h1>
+---
+
+<h1 align="center">☠️ KRISHNA | POWERFUL CODER ☠️</h1>
 
 <p align="center">
-  <b>Founder of:</b><br/>
-  HEXAFORCE ALLIANCE ⚡ &nbsp;|&nbsp; VIOLENT CYBER FORCE 💀 &nbsp;|&nbsp; CYBER GUARDIAN 🛡 &nbsp;|&nbsp; ANTI-CYBER CRIME TASKFORCE 🚔
+    <img src="https://readme-typing-svg.herokuapp.com?font=matrix&size=28&duration=3000&color=FF0000&center=true&vCenter=true&lines=Zork+Automation+Specialist;Team+Sincryption;Advanced+OSINT+Researcher;Zork+KING+TSN" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&color=FF007F&width=650&lines=🚀+Ethical+Hacker;💻+Full+Stack+Developer;🛡+Cybersecurity+Expert;🤖+AI+Specialist;🌐+OSINT+Investigator" alt="Typing SVG" />
-</p>
+<div align="center">
+    <a href="https://www.instagram.com/rootkrishna/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=red&color=black" alt="Instagram Badge"/></a>
+  <a href="https://t.me/rootkrishna"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=red&color=black" alt="Telegram Badge"/></a>
+</div>
 
-<p align="center">
-  <a href="https://instagram.com/rootkrishna"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-%40rootkrishna-ff0069?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href="https://github.com/rootkrishna"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%40rootkrishna-000000?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://t.me/rootkrishna"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-%40rootkrishna-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
-</p>
+### 🌟 [ABOUT ME] Code Architect and Innovator
 
----
+<div align="center"> 
+    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=24&duration=3500&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&width=700&lines=👋+Greetings!+I+am+Krishna.;💻" alt="Animated Typing SVG"> 
+</div>
 
-## 🌟 About Me
-I’m **KRISHNA** — also known as **@rootkrishna**.  
-A passionate **Ethical Hacker**, **Cybersecurity Specialist**, and **AI Engineer** from India 🇮🇳.  
-I build fast, clean, and field-ready tools blending **offensive security**, **AI automation**, and **OSINT**.
-
-> 🚩 **Har Har Mahadev** &nbsp;|&nbsp; 🇮🇳 **Jai Hind**
+<div align="center" style="margin: 20px;">
+    
+</div>
 
 ---
 
-## 🚀 Skills & Expertise
-- **Cybersecurity:** Pentesting, VA/PT, Network Security  
-- **Programming:** Python, JavaScript, HTML/CSS, Bash  
-- **AI & Automation:** ML/NLP, automation pipelines, tooling  
-- **OSINT & Recon:** advanced footprinting, intel collection  
-- **Web Dev:** premium, modern, animated UI designs  
+### Who Am I?
+
+I am **KRISHNA**, a passionate and self-taught **Ethical Hacker**, **OSINT Expert**, and **Python3 Automation Specialist**. Based in India, my expertise spans **C, C++, JavaScript, Shell**, and **Python**, where I build tools and solutions to bridge innovation with execution.
 
 ---
 
-## ⚔️ Featured Projects
-- **[UserTrackr](https://github.com/rootkrishna/UserTrackr)** — OSINT username tracking across 100+ sites  
-- **[DNSGhost](https://github.com/rootkrishna/DNSGhost)** — Stealth DNS lookup & subdomain reconnaissance  
-- **[ZeroRecon](https://github.com/rootkrishna/ZeroRecon)** — Full-scope OSINT & Recon automation with reporting  
-- **[AnonMail](https://github.com/rootkrishna/AnonMail-Spoofed-Email-Sender)** — Awareness & phishing training tool  
-- **[HashHawk](https://github.com/rootkrishna/HashHawk)** — Fast dictionary-based hash cracking
+### 🌟 [VISION]
 
-> Explore more → **https://github.com/rootkrishna**
+<div align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=750&lines=Empowering+Technology+Through+Precision+and+Integrity;Inspiring+a+Better+Tomorrow+Through+Code" alt="Vision Typing Animation">
+</div>
 
 ---
+
+### [⚠️] System Warning
+```css
+[ALERT] Unauthorized access detected
+[WARN]  System defenses compromised
+[CRIT]  Kernel panic imminent
+[FATAL] Ghost protocol initiated
+```
+
+---
+
 🛠️ **Tech Stack & Tools**  
 <p align="center"> <img src="https://skillicons.dev/icons?i=python,c,cpp,js,react,vue,linux,bash,mysql,firebase,git,github" alt="Tech Stack" /> </p>
 
