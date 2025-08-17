@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-    <a href="https://www.instagram.com/rootkrishna/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=red&color=black" alt="Instagram Badge"/></a>
+    <a href="https://www.instagram.com/root_krishna/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=red&color=black" alt="Instagram Badge"/></a>
   <a href="https://t.me/ROOT_KRISHNA"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=red&color=black" alt="Telegram Badge"/></a>
 </div>
 
