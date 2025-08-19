@@ -119,7 +119,7 @@ I am **KRISHNA**, a passionate and self-taught **Ethical Hacker**, **OSINT Exper
 ## 📡 Contact
 - Instagram: **[@root_krishna](https://instagram.com/root_krishna)**  
 - GitHub: **[@rootkrishna](https://github.com/rootkrishna)**  
-- Telegram: **[@rootkrishna](https://t.me/rootkrishna)**  
+- Telegram: **[@ROOT_KRISHNA](https://t.me/ROOT_KRISHNA)**  
 
 ---
 
