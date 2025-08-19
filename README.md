@@ -1,6 +1,6 @@
 ---
 
-<h1 align="center">☠️ KRISHNA | POWERFUL CODER ☠️</h1>
+<h1 align="center"> ☠️ KRISHNA | POWERFUL CODER ☠️ </h1>
 
 <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=matrix&size=28&duration=3000&color=FF0000&center=true&vCenter=true&lines=Automation+Specialist;Team+HexaForce+Alliance;Advanced+OSINT+Researcher;Krishna+KING+TSN" alt="Typing SVG" />
