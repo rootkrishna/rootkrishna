@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberScopeNews - Your Cyber Intelligence Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(0, 26, 77, 0.95);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 20px rgba(0, 212, 255, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #00d4ff;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+
+        .logo::before {
+            content: "🛰️";
+            font-size: 2rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+        }
+
+        .admin-btn {
+            background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+            color: #001a4d;
+            padding: 0.5rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            border: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .admin-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(0, 153, 204, 0.1) 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid #00d4ff;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #00d4ff 0%, #00ff88 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-container {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+        }
+
+        .search-container input {
+            flex: 1;
+            padding: 0.8rem;
+            border: 2px solid #00d4ff;
+            background: rgba(0, 212, 255, 0.1);
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .search-container input::placeholder {
+            color: #666;
+        }
+
+        .search-btn {
+            padding: 0.8rem 2rem;
+            background: #00d4ff;
+            color: #001a4d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .search-btn:hover {
+            background: #00ff88;
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+        }
+
+        .filter-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.6rem 1.5rem;
+            background: rgba(0, 212, 255, 0.2);
+            border: 2px solid #00d4ff;
+            color: #00d4ff;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #00d4ff;
+            color: #001a4d;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .news-card {
+            background: rgba(26, 31, 58, 0.8);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s;
+            cursor: pointer;
+            transform: translateY(0);
+        }
+
+        .news-card:hover {
+            border-color: #00d4ff;
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            overflow: hidden;
+        }
+
+        .news-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .news-content {
+            padding: 1.5rem;
+        }
+
+        .news-category {
+            display: inline-block;
+            background: #00d4ff;
+            color: #001a4d;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 0.8rem;
+        }
+
+        .news-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+            color: #00d4ff;
+        }
+
+        .news-description {
+            color: #aaa;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .news-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .read-more {
+            background: #00d4ff;
+            color: #001a4d;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .read-more:hover {
+            background: #00ff88;
+            transform: translateX(3px);
+        }
+
+        .article-detail {
+            display: none;
+            background: rgba(26, 31, 58, 0.95);
+            border: 2px solid #00d4ff;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            animation: slideIn 0.3s ease;
+        }
+
+        .article-detail.active {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .article-detail h2 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .article-detail .article-meta {
+            color: #666;
+            margin-bottom: 1.5rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .article-detail .article-image {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #00d4ff, #0099cc);
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+        }
+
+        .article-detail .article-content {
+            color: #ccc;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .back-btn {
+            background: #00d4ff;
+            color: #001a4d;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 2rem;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #00ff88;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            background: #0a0e27;
+            border: 2px solid #00d4ff;
+            border-radius: 10px;
+            padding: 2rem;
+            max-width: 500px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-close {
+            float: right;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #00d4ff;
+            line-height: 1;
+        }
+
+        .modal-close:hover {
+            color: #00ff88;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #00d4ff;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #00d4ff;
+            color: #ffffff;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #666;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #00ff88;
+            box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #00d4ff 0%, #00ff88 100%);
+            color: #001a4d;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 212, 255, 0.4);
+        }
+
+        footer {
+            background: rgba(0, 26, 77, 0.95);
+            padding: 2rem;
+            text-align: center;
+            border-top: 2px solid #00d4ff;
+            margin-top: 3rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+        }
+
+        .empty-state p {
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 1.4rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+                width: 100%;
+            }
+
+            nav a {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">CyberScopeNews</div>
+        <nav>
+            <a href="#" onclick="showHome()">Home</a>
+            <a href="#" onclick="showAllNews()">News</a>
+            <button class="admin-btn" onclick="openAdminPanel()">Admin Panel</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>🛰️ CyberScopeNews</h1>
+        <p>Your #1 Source for Cyber Intelligence & Technology News</p>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search news...">
+            <button class="search-btn" onclick="searchNews()">Search</button>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filter-container">
+        <button class="filter-btn active" onclick="filterNews('all')">All</button>
+        <button class="filter-btn" onclick="filterNews('cybersecurity')">Cybersecurity</button>
+        <button class="filter-btn" onclick="filterNews('ai')">AI & Tech</button>
+        <button class="filter-btn" onclick="filterNews('hacking')">Hacking</button>
+        <button class="filter-btn" onclick="filterNews('privacy')">Privacy</button>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Article Detail View -->
+        <div id="articleDetail" class="article-detail"></div>
+
+        <!-- News Grid -->
+        <div id="newsGrid" class="news-grid"></div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <p>No news found. Check back soon!</p>
+        </div>
+    </div>
+
+    <!-- Admin Panel Modal -->
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeAdminPanel()">&times;</span>
+            <h2 style="color: #00d4ff; margin-bottom: 1.5rem;">Admin Panel Login</h2>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="adminUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="adminPassword" placeholder="Enter password">
+            </div>
+            <button class="submit-btn" onclick="adminLogin()">Login</button>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard Modal -->
+    <div id="dashboardModal" class="modal">
+        <div class="modal-content" style="max-width: 800px;">
+            <span class="modal-close" onclick="closeDashboard()">&times;</span>
+            <h2 style="color: #00d4ff; margin-bottom: 1.5rem;">📊 Admin Dashboard</h2>
+            
+            <div style="display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
+                <div style="flex: 1; background: rgba(0, 212, 255, 0.1); padding: 1rem; border-radius: 5px; border-left: 3px solid #00d4ff;">
+                    <div style="color: #00d4ff; font-weight: bold;">Total Articles</div>
+                    <div style="font-size: 2rem; color: #00ff88;">
+                        <span id="totalArticles">0</span>
+                    </div>
+                </div>
+                <div style="flex: 1; background: rgba(0, 212, 255, 0.1); padding: 1rem; border-radius: 5px; border-left: 3px solid #00d4ff;">
+                    <div style="color: #00d4ff; font-weight: bold;">Total Views</div>
+                    <div style="font-size: 2rem; color: #00ff88;">
+                        <span id="totalViews">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="submit-btn" onclick="openAddArticleForm()" style="margin-bottom: 1.5rem;">➕ Add New Article</button>
+
+            <h3 style="color: #00d4ff; margin-bottom: 1rem;">📰 Manage Articles</h3>
+            <div id="adminArticlesList" style="max-height: 400px; overflow-y: auto;"></div>
+        </div>
+    </div>
+
+    <!-- Add Article Modal -->
+    <div id="addArticleModal" class="modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <span class="modal-close" onclick="closeAddArticleForm()">&times;</span>
+            <h2 style="color: #00d4ff; margin-bottom: 1.5rem;">✍️ Add New Article</h2>
+            
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" id="articleTitle" placeholder="Enter article title">
+            </div>
+            
+            <div class="form-group">
+                <label>Category</label>
+                <select id="articleCategory">
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="ai">AI & Tech</option>
+                    <option value="hacking">Hacking</option>
+                    <option value="privacy">Privacy</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Description (Short)</label>
+                <textarea id="articleDescription" placeholder="Enter short description"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Full Content</label>
+                <textarea id="articleContent" placeholder="Enter full article content" style="min-height: 200px;"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Image Emoji/URL</label>
+                <input type="text" id="articleImage" placeholder="Paste emoji or image URL">
+            </div>
+
+            <div class="form-group">
+                <label>Author</label>
+                <input type="text" id="articleAuthor" placeholder="Enter author name">
+            </div>
+
+            <button class="submit-btn" onclick="saveArticle()">📤 Publish Article</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CyberScopeNews. All rights reserved. | Stay informed, Stay secure 🛡️</p>
+    </footer>
+
+    <script>
+        // Admin credentials (demo - change in production!)
+        const ADMIN_USERNAME = "admin";
+        const ADMIN_PASSWORD = "admin123";
+        let isAdminLoggedIn = false;
+        let currentFilter = 'all';
+
+        // Sample News Data
+        let newsData = [
+            {
+                id: 1,
+                title: "New Zero-Day Vulnerability Discovered in Major Software",
+                description: "Security researchers have uncovered a critical zero-day vulnerability affecting millions of users worldwide.",
+                content: "A newly discovered zero-day vulnerability has been found in one of the world's most widely-used software platforms. Security researchers from leading firms have identified the flaw and are working with vendors to patch the issue. Users are advised to enable automatic updates and remain vigilant against suspicious activity. The vulnerability could potentially allow attackers to gain unauthorized access to systems. Patches are expected to be released within the next 48 hours. Organizations are urged to prepare their security teams and implement additional monitoring measures.",
+                category: "cybersecurity",
+                image: "🔐",
+                author: "John Security",
+                date: "2024-06-20",
+                views: 15420
+            },
+            {
+                id: 2,
+                title: "AI Breakthrough: New Machine Learning Model Shows Promise",
+                description: "Researchers announce a groundbreaking AI model that surpasses previous benchmarks in natural language processing.",
+                content: "In a major breakthrough, AI researchers have unveiled a new machine learning model that demonstrates unprecedented performance in natural language understanding tasks. The model, trained on diverse datasets, shows remarkable improvements over previous iterations. Applications range from automated translation to advanced data analysis. This development could revolutionize how businesses process and understand text data. The research team has made preliminary findings available to the community for further study and development. Industry experts predict widespread adoption within the next two years.",
+                category: "ai",
+                image: "🤖",
+                author: "Dr. AI Research",
+                date: "2024-06-19",
+                views: 8932
+            },
+            {
+                id: 3,
+                title: "Hackers Target Healthcare Systems in Coordinated Attack",
+                description: "A sophisticated hacking group has launched attacks on multiple healthcare providers simultaneously.",
+                content: "Security agencies report a coordinated cyberattack targeting healthcare systems across multiple regions. The attack appears to be orchestrated by a sophisticated group with advanced capabilities. Patient records and sensitive health information may have been compromised. Healthcare providers are working with authorities to investigate the breach and notify affected individuals. This incident highlights the critical importance of robust cybersecurity measures in the healthcare sector. Experts recommend enhanced monitoring, regular security audits, and employee training programs to prevent similar incidents.",
+                category: "hacking",
+                image: "⚠️",
+                author: "Cyber Threat Team",
+                date: "2024-06-18",
+                views: 12567
+            },
+            {
+                id: 4,
+                title: "Privacy Concerns Rise as Tech Companies Expand Data Collection",
+                description: "Consumer advocacy groups voice alarm over increasing data collection practices by major technology firms.",
+                content: "Privacy advocates are raising serious concerns about the expanding data collection practices employed by major technology companies. New research indicates that users have limited understanding of how their data is being collected, stored, and utilized. Regulations like GDPR have prompted some companies to improve transparency, but gaps remain. Experts recommend users review privacy settings, use VPNs, and consider privacy-focused alternatives. Governments worldwide are considering stricter regulations to protect consumer privacy. Companies are encouraged to adopt privacy-by-design principles in their product development.",
+                category: "privacy",
+                image: "🔒",
+                author: "Privacy Advocate",
+                date: "2024-06-17",
+                views: 9245
+            },
+            {
+                id: 5,
+                title: "Cybersecurity Spending Reaches Record High",
+                description: "Global cybersecurity spending is projected to exceed $200 billion this year as threats continue to rise.",
+                content: "According to recent market analysis, global cybersecurity spending is expected to reach unprecedented levels in 2024. Organizations are increasing their security budgets in response to growing threat landscapes and regulatory requirements. Cloud security, threat intelligence, and incident response services are seeing the highest growth rates. Industries such as finance, healthcare, and technology are leading the charge in security investments. Small and medium-sized enterprises are also recognizing the importance of adequate cybersecurity funding. Analysts predict continued growth in this sector over the coming years as digital transformation accelerates.",
+                category: "cybersecurity",
+                image: "💰",
+                author: "Market Analyst",
+                date: "2024-06-16",
+                views: 6789
+            },
+            {
+                id: 6,
+                title: "Quantum Computing: The Future of Encryption",
+                description: "Experts discuss how quantum computers will revolutionize encryption and cybersecurity practices.",
+                content: "As quantum computing technology advances, cybersecurity experts are preparing for a fundamental shift in encryption methods. Current encryption standards may become vulnerable to quantum computers in the future. Organizations are beginning to explore post-quantum cryptography solutions to protect sensitive data. The transition to quantum-resistant algorithms is expected to take several years. Governments and industry leaders are collaborating to establish standards for post-quantum encryption. Proactive organizations are already testing and implementing quantum-safe security measures. This transformation represents one of the most significant shifts in cybersecurity history.",
+                category: "ai",
+                image: "⚛️",
+                author: "Tech Futurist",
+                date: "2024-06-15",
+                views: 10234
+            }
+        ];
+
+        // Display all news
+        function displayNews(articles = newsData) {
+            const newsGrid = document.getElementById('newsGrid');
+            const emptyState = document.getElementById('emptyState');
+            const articleDetail = document.getElementById('articleDetail');
+            
+            articleDetail.innerHTML = '';
+            articleDetail.classList.remove('active');
+
+            if (articles.length === 0) {
+                newsGrid.innerHTML = '';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+            newsGrid.innerHTML = articles.map(article => `
+                <div class="news-card" onclick="viewArticle(${article.id})">
+                    <div class="news-image">${article.image}</div>
+                    <div class="news-content">
+                        <span class="news-category">${article.category.toUpperCase()}</span>
+                        <h3 class="news-title">${article.title}</h3>
+                        <p class="news-description">${article.description}</p>
+                        <div class="news-footer">
+                            <span>${article.date}</span>
+                            <button class="read-more" onclick="event.stopPropagation(); viewArticle(${article.id})">Read More →</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // View full article
+        function viewArticle(id) {
+            const article = newsData.find(a => a.id === id);
+            if (!article) return;
+
+            article.views++;
+
+            const articleDetail = document.getElementById('articleDetail');
+            articleDetail.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h2>${article.title}</h2>
+                    <button class="back-btn" onclick="showHome()">← Back</button>
+                </div>
+                <div class="article-meta">
+                    <span>📅 ${article.date}</span>
+                    <span>✍️ ${article.author}</span>
+                    <span>👁️ ${article.views} views</span>
+                    <span style="background: #00d4ff; color: #001a4d; padding: 0.3rem 0.8rem; border-radius: 20px;">${article.category.toUpperCase()}</span>
+                </div>
+                <div class="article-image">${article.image}</div>
+                <div class="article-content">
+                    ${article.content}
+                </div>
+                <button class="back-btn" onclick="showHome()">← Back to News</button>
+            `;
+            articleDetail.classList.add('active');
+            window.scrollTo(0, 0);
+        }
+
+        // Filter news
+        function filterNews(category) {
+            currentFilter = category;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            if (category === 'all') {
+                displayNews(newsData);
+            } else {
+                const filtered = newsData.filter(a => a.category === category);
+                displayNews(filtered);
+            }
+        }
+
+        // Search news
+        function searchNews() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            if (!query) {
+                displayNews(newsData);
+                return;
+            }
+
+            const results = newsData.filter(a =>
+                a.title.toLowerCase().includes(query) ||
+                a.description.toLowerCase().includes(query) ||
+                a.content.toLowerCase().includes(query)
+            );
+            displayNews(results);
+        }
+
+        // Show home
+        function showHome() {
+            document.getElementById('articleDetail').classList.remove('active');
+            document.getElementById('searchInput').value = '';
+            currentFilter = 'all';
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector('.filter-btn').classList.add('active');
+            displayNews(newsData);
+        }
+
+        // Show all news
+        function showAllNews() {
+            showHome();
+        }
+
+        // Admin Panel Functions
+        function openAdminPanel() {
+            if (isAdminLoggedIn) {
+                openDashboard();
+            } else {
+                document.getElementById('adminModal').classList.add('active');
+            }
+        }
+
+        function closeAdminPanel() {
+            document.getElementById('adminModal').classList.remove('active');
+            document.getElementById('adminUsername').value = '';
+            document.getElementById('adminPassword').value = '';
+        }
+
+        function adminLogin() {
+            const username = document.getElementById('adminUsername').value;
+            const password = document.getElementById('adminPassword').value;
+
+            if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
+                isAdminLoggedIn = true;
+                closeAdminPanel();
+                openDashboard();
+                alert('✅ Login successful!');
+            } else {
+                alert('❌ Invalid credentials! (Demo: admin/admin123)');
+            }
+        }
+
+        function openDashboard() {
+            if (!isAdminLoggedIn) {
+                alert('Please login first');
+                return;
+            }
+
+            document.getElementById('totalArticles').textContent = newsData.length;
+            document.getElementById('totalViews').textContent = newsData.reduce((sum, a) => sum + a.views, 0);
+
+            const adminList = document.getElementById('adminArticlesList');
+            adminList.innerHTML = newsData.map(article => `
+                <div style="background: rgba(0, 212, 255, 0.1); padding: 1rem; margin-bottom: 0.8rem; border-radius: 5px; border-left: 3px solid #00d4ff;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="flex: 1;">
+                            <strong style="color: #00d4ff;">${article.title}</strong>
+                            <div style="font-size: 0.9rem; color: #999; margin-top: 0.3rem;">
+                                ${article.category} | ${article.date} | 👁️ ${article.views} views
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <button style="background: #00d4ff; color: #001a4d; padding: 0.4rem 0.8rem; border: none; border-radius: 3px; cursor: pointer; font-weight: bold;" onclick="editArticle(${article.id})">Edit</button>
+                            <button style="background: #ff4444; color: white; padding: 0.4rem 0.8rem; border: none; border-radius: 3px; cursor: pointer; font-weight: bold;" onclick="deleteArticle(${article.id})">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            document.getElementById('dashboardModal').classList.add('active');
+        }
+
+        function closeDashboard() {
+            document.getElementById('dashboardModal').classList.remove('active');
+        }
+
+        function openAddArticleForm() {
+            document.getElementById('articleTitle').value = '';
+            document.getElementById('articleCategory').value = 'cybersecurity';
+            document.getElementById('articleDescription').value = '';
+            document.getElementById('articleContent').value = '';
+            document.getElementById('articleImage').value = '';
+            document.getElementById('articleAuthor').value = '';
+            document.getElementById('addArticleModal').classList.add('active');
+        }
+
+        function closeAddArticleForm() {
+            document.getElementById('addArticleModal').classList.remove('active');
+        }
+
+        function saveArticle() {
+            const title = document.getElementById('articleTitle').value;
+            const category = document.getElementById('articleCategory').value;
+            const description = document.getElementById('articleDescription').value;
+            const content = document.getElementById('articleContent').value;
+            const image = document.getElementById('articleImage').value || '📰';
+            const author = document.getElementById('articleAuthor').value;
+
+            if (!title || !description || !content || !author) {
+                alert('⚠️ Please fill in all fields!');
+                return;
+            }
+
+            const newArticle = {
+                id: newsData.length + 1,
+                title,
+                description,
+                content,
+                category,
+                image,
+                author,
+                date: new Date().toISOString().split('T')[0],
+                views: 0
+            };
+
+            newsData.unshift(newArticle);
+            closeAddArticleForm();
+            openDashboard();
+            alert('✅ Article published successfully!');
+        }
+
+        function deleteArticle(id) {
+            if (confirm('Are you sure you want to delete this article?')) {
+                newsData = newsData.filter(a => a.id !== id);
+                openDashboard();
+                alert('✅ Article deleted!');
+            }
+        }
+
+        function editArticle(id) {
+            alert('✏️ Edit feature coming soon!');
+        }
+
+        // Close modals when clicking outside
+        window.onclick = function(event) {
+            const adminModal = document.getElementById('adminModal');
+            const dashboardModal = document.getElementById('dashboardModal');
+            const addArticleModal = document.getElementById('addArticleModal');
+
+            if (event.target === adminModal) closeAdminPanel();
+            if (event.target === dashboardModal) closeDashboard();
+            if (event.target === addArticleModal) closeAddArticleForm();
+        }
+
+        // Initial display
+        displayNews();
+    </script>
+</body>
+</html>
